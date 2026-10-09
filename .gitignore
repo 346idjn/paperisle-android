@@ -1,0 +1,31 @@
+# Android / Gradle build outputs
+.gradle/
+**/build/
+local.properties
+
+# IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Release artifacts and signing material
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Local credentials and device data
+.env
+.env.*
+secrets.properties
+private.properties
+/local-data/
+/books/
+*.epub
+*.pdf
+
+# Local UI/debug captures; keep them on this computer, not in the source repo
+/*.png

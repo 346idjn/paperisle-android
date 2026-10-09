@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'app.paperisle.reader'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'app.paperisle.reader'
+        minSdk 24
+        targetSdk 35
+        versionCode 14
+        versionName '1.1.0'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.15.0'
+}
